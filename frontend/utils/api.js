@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://notes-bookmark-app-3.onrender.com/api';
 
 export async function fetchNotes(query = '', token) {
   const res = await fetch(`${BASE_URL}/notes${query}`, {
